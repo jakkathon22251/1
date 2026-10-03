@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ไปอาบน้ำเดี๋ยวนี้นะ!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mali:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bubbles" aria-hidden="true">
+    <span>🫧</span><span>🫧</span><span>🫧</span><span>🫧</span><span>🫧</span><span>🫧</span>
+  </div>
+
+  <main class="card">
+    <div class="mascot" id="mascot" aria-hidden="true">🐥</div>
+    <h1>ตัวเหม็นแล้วนะ! 🫧</h1>
+    <p id="msg">เป็ดน้อยบอกว่า ถึงเวลาอาบน้ำแล้วจ้า</p>
+
+    <div class="choices">
+      <button id="yes" class="btn yes">🛁 อาบน้ำ!</button>
+      <button id="no" class="btn no">🙅 ไม่อาบ</button>
+    </div>
+  </main>
+
+  <div class="win" id="win" hidden>
+    <div class="win-box">
+      <div class="big">🛁🐥🫧</div>
+      <h2>เก่งมาก! ไปอาบเลย~</h2>
+      <p>สบู่ แชมพู ถูให้สะอาดนะ ✨</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
